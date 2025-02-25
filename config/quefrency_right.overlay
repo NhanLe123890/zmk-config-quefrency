@@ -8,6 +8,7 @@
  * may require different column and row pins
  */
 &kscan0 {
+<<<<<<< HEAD
     col-gpios = <&pro_micro 20 GPIO_ACTIVE_HIGH>,
                 <&pro_micro 19 GPIO_ACTIVE_HIGH>,
                 <&pro_micro 18 GPIO_ACTIVE_HIGH>,
@@ -16,4 +17,14 @@
                 <&pro_micro 16 GPIO_ACTIVE_HIGH>,
                 <&pro_micro 10 GPIO_ACTIVE_HIGH>,
                 <&pro_micro 5  GPIO_ACTIVE_HIGH>;
+=======
+   col-gpios = <&pro_micro 20 GPIO_ACTIVE_HIGH>,
+               <&pro_micro 19 GPIO_ACTIVE_HIGH>,
+               <&pro_micro 18 GPIO_ACTIVE_HIGH>,
+               <&pro_micro 15 GPIO_ACTIVE_HIGH>,
+               <&pro_micro 14 GPIO_ACTIVE_HIGH>,
+               <&pro_micro 16 GPIO_ACTIVE_HIGH>,
+               <&pro_micro 10 GPIO_ACTIVE_HIGH>,
+               <&pro_micro 5  GPIO_ACTIVE_HIGH>;
+>>>>>>> 617cbd9ec8320331743ab817069e95b3b04d1e0f
 };
