@@ -1,3 +1,4 @@
+name: zmk-keyboards-quefency
 build:
   settings:
     board_root: .
