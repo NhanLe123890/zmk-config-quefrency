@@ -6,6 +6,7 @@ url:
 requires: [pro_micro]
 features:
   - keys
+  - studio
 siblings:
   - quefrency_left
   - quefrency_right
