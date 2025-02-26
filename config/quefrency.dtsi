@@ -1,13 +1,13 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "quefrency-layouts.dtsi"
 
+&quefrency_layout {
+    transform = <&default_transform>;
+};
+
 / {
     chosen {
         zmk,kscan = &kscan0;
-
-        //zmk,matrix-transform = &default_transform;
-        
-        zmk,physical-layout = &physical_layout0;
     };
 
     /*

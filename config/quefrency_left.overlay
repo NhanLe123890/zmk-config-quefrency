@@ -1,3 +1,5 @@
+#include <dt-bindings/zmk/matrix_transform.h>
+#include <physical_layouts.dtsi>
 #include "quefrency.dtsi"
 
 /* This kscan is for the 60% left half without macro keys the
