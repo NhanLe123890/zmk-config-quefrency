@@ -1,4 +1,5 @@
 #include "quefrency.dtsi"
+#include "quefrency-layouts.dtsi"
 
 /* This kscan is for the 60% left half without macro keys the
  * macro pad layout may require different column and row pins
