@@ -6,6 +6,9 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_STUDIO_LOCKING
+    default n
+
 endif
 
 if SHIELD_QUEFRENCY_LEFT || SHIELD_QUEFRENCY_RIGHT
