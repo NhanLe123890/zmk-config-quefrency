@@ -1,5 +1,4 @@
 #include "quefrency.dtsi"
-#include "quefrency-layouts.dtsi"
 
 &default_transform {
     col-offset = <7>;
